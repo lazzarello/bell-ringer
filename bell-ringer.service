@@ -1,0 +1,11 @@
+[Unit]
+Description=A bell ringer
+
+[Service]
+WorkingDirectory=/home/pi
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/home/pi/env/bin/python /home/pi/sample-player.py
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
