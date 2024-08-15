@@ -17,3 +17,4 @@ systemctl start bell-ringer.service
 ```
 
 Read PDF manual for hardware requirements.
+[Raspberry Pi 3 model B pinouts](https://pinout.xyz/pinout/5v_power#:~:text=The%205v%20power%20pins%20are,Pi%20model%20and%20adapter%20used.)
